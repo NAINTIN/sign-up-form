@@ -57,6 +57,9 @@ label{
     flex-shrink:0;
     position:relative;
     background-image:url(https://static.wikia.nocookie.net/megamitensei/images/f/ff/Persona_3_Reload_Cover_Logoless.jpg/revision/latest?cb=20240514034415)
+    /* 
+      i'm using background image here so i can put a logo on top of the image because the image container just contains the image background not the actual image itself
+*/
 }
 
 .img-container > img{
