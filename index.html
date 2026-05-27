@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="layout">  <!-- Needed for image and main container to be side by side-->
+       <!-- layout is flex row-->
+        <div class="img-container">
+            <div class="logo-container">
+            
+            <img class="logo" src="https://cdn2.steamgriddb.com/logo/472c8a7841544965e844f15b115ddde2.png">
+        </div>
+        <p class="credit">© Atlus. All rights reserved.</p>
+    </div>
+        <div class="right-column"><!-- This is for flex column so text and main content stacked vertically-->
+            <img class="logo1" src="https://cdn2.steamgriddb.com/logo/472c8a7841544965e844f15b115ddde2.png">   
+            <div class="text-content">
+            <h2>Persona 3 Reload</h2>
+            <p>Persona 3 Reload is a remake of the 2006 JRPG Persona 3, 
+                developed by Atlus. You play as a high school student who can 
+                summon a Persona — a manifestation of your inner self — to fight 
+                Shadows during the "Dark Hour," a hidden 25th hour of the day. 
+                The game blends dungeon crawling in a tower called Tartarus with social simulation elements during the day, 
+                where you build relationships called Social Links that strengthen your Personas. It was released in February 
+                2024 with fully modernized graphics, a reworked UI, new voice acting, and quality-of-life improvements 
+                while staying faithful to the original story.</p>
+        </div>
+    <div class="main-container">
+        <form>
+            <div class="row-one">
+            <div class="first-name">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="last-name">
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+        </div>
+        <div class="row-two">
+            <div class="email">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="phone-number">
+                <label for="number">PHONE NUMBER</label>
+                <input type="number" id="number" name="number" required>
+            </div>
+        </div>
+        <div class="row-three">
+            <div class="password">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="confirm-password">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+        </div>
+        <button class="submit">Create Account</button>
+        </form>
+        
+        </div>
+        
+     
+    </div>
+    </div>
+    
+    
+</body>
+</html>
